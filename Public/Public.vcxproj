@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7C3F0FB9-C27A-47BB-9654-82969E786F0B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Public</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CmmLibport.h" />
+    <ClInclude Include="CurlWrapPort.h" />
+    <ClInclude Include="FastPrintCommDef.h" />
+    <ClInclude Include="FastPrintNetDef.h" />
+    <ClInclude Include="FileOperateHeader.h" />
+    <ClInclude Include="include\CardDef.h" />
+    <ClInclude Include="include\CmmInterface.h" />
+    <ClInclude Include="include\comustruct.h" />
+    <ClInclude Include="include\CrcPort.h" />
+    <ClInclude Include="include\CrcPort2.h" />
+    <ClInclude Include="include\detours.h" />
+    <ClInclude Include="include\DEVIOCTL.H" />
+    <ClInclude Include="include\Fhcode.h" />
+    <ClInclude Include="include\GetBootInfo.h" />
+    <ClInclude Include="include\glCmdAndStructDef.h" />
+    <ClInclude Include="include\glCmdAndStructDefEx_5000_6000.h" />
+    <ClInclude Include="include\glCmdAndStructPrint2.h" />
+    <ClInclude Include="include\glCmdAndStructThirdPay.h" />
+    <ClInclude Include="include\glCmdThridAuth.h" />
+    <ClInclude Include="include\glErrorCodeDef.h" />
+    <ClInclude Include="include\globalCmd.h" />
+    <ClInclude Include="include\glTranscriptType.h" />
+    <ClInclude Include="include\Gsmh.h" />
+    <ClInclude Include="include\GSMH_std.H" />
+    <ClInclude Include="include\gsmh_usbc.h" />
+    <ClInclude Include="include\ijl.h" />
+    <ClInclude Include="include\LmPrinterDef.h" />
+    <ClInclude Include="include\LmPrintStationCommDef.h" />
+    <ClInclude Include="include\memdc.h" />
+    <ClInclude Include="include\MinHook.h" />
+    <ClInclude Include="include\msxaiPort.h" />
+    <ClInclude Include="include\msxcp.h" />
+    <ClInclude Include="include\MultiLanguageDef.h" />
+    <ClInclude Include="include\NetCmdAndStructDef.h" />
+    <ClInclude Include="include\PdfHelper.h" />
+    <ClInclude Include="include\pdfutils.h" />
+    <ClInclude Include="include\PrintDocEvent.h" />
+    <ClInclude Include="include\printersvctDef.h" />
+    <ClInclude Include="include\PrintProcessDef.h" />
+    <ClInclude Include="include\scrCmdAndStructDef.h" />
+    <ClInclude Include="include\sDefine.h" />
+    <ClInclude Include="include\SorenDefine.h" />
+    <ClInclude Include="include\SorenPreComp.h" />
+    <ClInclude Include="include\sqlite3.h" />
+    <ClInclude Include="include\structDef.h" />
+    <ClInclude Include="include\SubSystemInterface.h" />
+    <ClInclude Include="include\SystemDef.h" />
+    <ClInclude Include="iPrintableDocumentDealDef.h" />
+    <ClInclude Include="iSecLinkPort.h" />
+    <ClInclude Include="jsonPort.h" />
+    <ClInclude Include="messageport.h" />
+    <ClInclude Include="PdfHelperDef.h" />
+    <ClInclude Include="printhelperPort.h" />
+    <ClInclude Include="ProtectDef.h" />
+    <ClInclude Include="ProtobufPort.h" />
+    <ClInclude Include="PubGlobal.h" />
+    <ClInclude Include="SplHelperDef.h" />
+    <ClInclude Include="sqliteExport.h" />
+    <ClInclude Include="sqliteport.h" />
+    <ClInclude Include="UpdateDef.h" />
+    <ClInclude Include="VirtualDriverDef.h" />
+    <ClInclude Include="WebInterface.h" />
+    <ClInclude Include="ZLibWrapPort.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\Gsmh.h-ORG" />
+    <None Include="proto\fastprintmessage.proto" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\CmmInterface.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

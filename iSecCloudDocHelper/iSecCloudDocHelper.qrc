@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/iSecCloudDocHelper">
+        <file>Resources/qt_zh_CN.qm</file>
+        <file>Resources/iSecCloudDocHelper.ico</file>
+        <file>Resources/quit.ico</file>
+        <file>Resources/show.ico</file>
+    </qresource>
+</RCC>

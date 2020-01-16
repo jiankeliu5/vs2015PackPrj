@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{381a3b20-446c-488d-8224-53bcce6bf3cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="access_control.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="aCmmLib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Allocator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BanCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnST.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CardAnalyst.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CHash.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClickedButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboBox2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonFun.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DiskSerial.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgPageQuery.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgReSetting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileMap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileMap2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileVersionInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FontDialog2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HdAcceleFun.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HtmlHelp2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IIS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IISFTP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IISWeb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IPRange.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrl2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="md5wrapper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniDump.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="msword.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NewHeaderCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NewTreeListCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NtDriverController.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PageQueryWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseShd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseSpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ping1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PipeSvrThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessExp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Registry2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistryEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RichEditCtrl2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SecurityTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Service.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SysTrayInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadMgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeListWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WinFireWallOp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WinUserMgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlParse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XSharedMemoryQueue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiLanguage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Md5Encode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sha1Ex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="aCmmLib.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="..\PrintFileTest\PrintFileTest.vcxproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="access_control.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="aCmmLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Allocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BanCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="btnst.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CardAnalyst.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CHash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClickedButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Include\CmmInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboBox2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DiskSerial.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgPageQuery.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgReSetting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Edit2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDialog2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileMap2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileVersionInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FontDialog2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HdAcceleFun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HtmlHelp2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IIS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IISFTP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IISWeb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IPRange.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="listctrl2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="md5wrapper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MemDC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniDump.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="msword.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NewHeaderCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NewTreeListCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NtDriverController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PageQueryWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pagerSizemsg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseShd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseSpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ping1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PipeSvrThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessExp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistryEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="richeditctrl2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SecurityTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SortCStringArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SysTrayInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadMgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeListWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WinFireWallOp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WinUserMgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlParse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XSharedMemoryQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiLanguage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Md5Encode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sha1Ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="aCmmLib.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon3.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon4.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\check.ico" />
+    <Image Include="res\childche.ico" />
+    <Image Include="res\disablec.ico" />
+    <Image Include="res\uncheck.ico" />
+  </ItemGroup>
+</Project>

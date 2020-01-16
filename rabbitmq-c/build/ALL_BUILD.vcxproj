@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DCAA9D0B-95C5-3C48-8D5E-FDE4AA1A6B34}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\newWork\RabbitMQ\rabbitmq-c\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Project/newWork/RabbitMQ/rabbitmq-c/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Project/newWork/RabbitMQ/rabbitmq-c/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\Project\newWork\tools\cmake-3.14.3-win64-x64\bin\cmake.exe -SD:/Project/newWork/RabbitMQ/rabbitmq-c -BD:/Project/newWork/RabbitMQ/rabbitmq-c/build --check-stamp-file D:/Project/newWork/RabbitMQ/rabbitmq-c/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Project\newWork\tools\cmake-3.14.3-win64-x64\bin\cmake.exe -SD:/Project/newWork/RabbitMQ/rabbitmq-c -BD:/Project/newWork/RabbitMQ/rabbitmq-c/build --check-stamp-file D:/Project/newWork/RabbitMQ/rabbitmq-c/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Project/newWork/RabbitMQ/rabbitmq-c/CMakeLists.txt;D:\Project\newWork\RabbitMQ\rabbitmq-c\CMakeLists.txt;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeCCompiler.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeSystem.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\CMakePushCheckState.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\FindPOPT.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\FindXmlTo.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\GNUInstallDirs.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\TestCInline.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\config.h.in;D:\Project\newWork\RabbitMQ\rabbitmq-c\librabbitmq.pc.in;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeRCInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckLibraryExists.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckSymbolExists.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindDoxygen.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPackageMessage.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPkgConfig.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Project/newWork/RabbitMQ/rabbitmq-c/CMakeLists.txt;D:\Project\newWork\RabbitMQ\rabbitmq-c\CMakeLists.txt;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeCCompiler.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeSystem.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\CMakePushCheckState.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\FindPOPT.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\FindXmlTo.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\GNUInstallDirs.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\TestCInline.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\config.h.in;D:\Project\newWork\RabbitMQ\rabbitmq-c\librabbitmq.pc.in;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeRCInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckLibraryExists.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckSymbolExists.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindDoxygen.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPackageMessage.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPkgConfig.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Project/newWork/RabbitMQ/rabbitmq-c/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Project/newWork/RabbitMQ/rabbitmq-c/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\Project\newWork\tools\cmake-3.14.3-win64-x64\bin\cmake.exe -SD:/Project/newWork/RabbitMQ/rabbitmq-c -BD:/Project/newWork/RabbitMQ/rabbitmq-c/build --check-stamp-file D:/Project/newWork/RabbitMQ/rabbitmq-c/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Project\newWork\tools\cmake-3.14.3-win64-x64\bin\cmake.exe -SD:/Project/newWork/RabbitMQ/rabbitmq-c -BD:/Project/newWork/RabbitMQ/rabbitmq-c/build --check-stamp-file D:/Project/newWork/RabbitMQ/rabbitmq-c/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Project/newWork/RabbitMQ/rabbitmq-c/CMakeLists.txt;D:\Project\newWork\RabbitMQ\rabbitmq-c\CMakeLists.txt;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeCCompiler.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeSystem.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\CMakePushCheckState.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\FindPOPT.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\FindXmlTo.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\GNUInstallDirs.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\TestCInline.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\config.h.in;D:\Project\newWork\RabbitMQ\rabbitmq-c\librabbitmq.pc.in;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeRCInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckLibraryExists.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckSymbolExists.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindDoxygen.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPackageMessage.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPkgConfig.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Project/newWork/RabbitMQ/rabbitmq-c/CMakeLists.txt;D:\Project\newWork\RabbitMQ\rabbitmq-c\CMakeLists.txt;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeCCompiler.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeSystem.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\CMakePushCheckState.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\FindPOPT.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\FindXmlTo.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\GNUInstallDirs.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\TestCInline.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\config.h.in;D:\Project\newWork\RabbitMQ\rabbitmq-c\librabbitmq.pc.in;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeRCInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckLibraryExists.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckSymbolExists.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindDoxygen.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPackageMessage.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPkgConfig.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Project/newWork/RabbitMQ/rabbitmq-c/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Project/newWork/RabbitMQ/rabbitmq-c/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\Project\newWork\tools\cmake-3.14.3-win64-x64\bin\cmake.exe -SD:/Project/newWork/RabbitMQ/rabbitmq-c -BD:/Project/newWork/RabbitMQ/rabbitmq-c/build --check-stamp-file D:/Project/newWork/RabbitMQ/rabbitmq-c/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Project\newWork\tools\cmake-3.14.3-win64-x64\bin\cmake.exe -SD:/Project/newWork/RabbitMQ/rabbitmq-c -BD:/Project/newWork/RabbitMQ/rabbitmq-c/build --check-stamp-file D:/Project/newWork/RabbitMQ/rabbitmq-c/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Project/newWork/RabbitMQ/rabbitmq-c/CMakeLists.txt;D:\Project\newWork\RabbitMQ\rabbitmq-c\CMakeLists.txt;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeCCompiler.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeSystem.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\CMakePushCheckState.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\FindPOPT.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\FindXmlTo.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\GNUInstallDirs.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\TestCInline.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\config.h.in;D:\Project\newWork\RabbitMQ\rabbitmq-c\librabbitmq.pc.in;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeRCInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckLibraryExists.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckSymbolExists.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindDoxygen.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPackageMessage.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPkgConfig.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Project/newWork/RabbitMQ/rabbitmq-c/CMakeLists.txt;D:\Project\newWork\RabbitMQ\rabbitmq-c\CMakeLists.txt;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeCCompiler.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeSystem.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\CMakePushCheckState.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\FindPOPT.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\FindXmlTo.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\GNUInstallDirs.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\TestCInline.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\config.h.in;D:\Project\newWork\RabbitMQ\rabbitmq-c\librabbitmq.pc.in;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeRCInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckLibraryExists.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckSymbolExists.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindDoxygen.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPackageMessage.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPkgConfig.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Project/newWork/RabbitMQ/rabbitmq-c/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Project/newWork/RabbitMQ/rabbitmq-c/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\Project\newWork\tools\cmake-3.14.3-win64-x64\bin\cmake.exe -SD:/Project/newWork/RabbitMQ/rabbitmq-c -BD:/Project/newWork/RabbitMQ/rabbitmq-c/build --check-stamp-file D:/Project/newWork/RabbitMQ/rabbitmq-c/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Project\newWork\tools\cmake-3.14.3-win64-x64\bin\cmake.exe -SD:/Project/newWork/RabbitMQ/rabbitmq-c -BD:/Project/newWork/RabbitMQ/rabbitmq-c/build --check-stamp-file D:/Project/newWork/RabbitMQ/rabbitmq-c/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Project/newWork/RabbitMQ/rabbitmq-c/CMakeLists.txt;D:\Project\newWork\RabbitMQ\rabbitmq-c\CMakeLists.txt;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeCCompiler.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeSystem.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\CMakePushCheckState.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\FindPOPT.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\FindXmlTo.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\GNUInstallDirs.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\TestCInline.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\config.h.in;D:\Project\newWork\RabbitMQ\rabbitmq-c\librabbitmq.pc.in;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeRCInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckLibraryExists.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckSymbolExists.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindDoxygen.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPackageMessage.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPkgConfig.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Project/newWork/RabbitMQ/rabbitmq-c/CMakeLists.txt;D:\Project\newWork\RabbitMQ\rabbitmq-c\CMakeLists.txt;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeCCompiler.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\3.14.3\CMakeSystem.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\CMakePushCheckState.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\FindPOPT.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\FindXmlTo.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\GNUInstallDirs.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\TestCInline.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\cmake\config.h.in;D:\Project\newWork\RabbitMQ\rabbitmq-c\librabbitmq.pc.in;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeRCInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckLibraryExists.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\CheckSymbolExists.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindDoxygen.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPackageMessage.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\FindPkgConfig.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\Windows.cmake;D:\Project\newWork\tools\cmake-3.14.3-win64-x64\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;D:\Project\newWork\RabbitMQ\rabbitmq-c\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\newWork\RabbitMQ\rabbitmq-c\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Project\newWork\RabbitMQ\rabbitmq-c\build\ZERO_CHECK.vcxproj">
+      <Project>{A88392E7-4608-3B99-BBEF-C95494D18777}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\newWork\RabbitMQ\rabbitmq-c\build\examples\amqp_bind.vcxproj">
+      <Project>{C595A478-F914-3155-A60D-A988481C5FB7}</Project>
+      <Name>amqp_bind</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\newWork\RabbitMQ\rabbitmq-c\build\examples\amqp_connect_timeout.vcxproj">
+      <Project>{3B8249A2-7DEE-33DD-8294-42D15B6F0870}</Project>
+      <Name>amqp_connect_timeout</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\newWork\RabbitMQ\rabbitmq-c\build\examples\amqp_consumer.vcxproj">
+      <Project>{B94666C0-991C-3A83-B6B7-C06B653B1140}</Project>
+      <Name>amqp_consumer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\newWork\RabbitMQ\rabbitmq-c\build\examples\amqp_exchange_declare.vcxproj">
+      <Project>{8486A3C2-AC4F-3417-8F6D-766D0FF1D49C}</Project>
+      <Name>amqp_exchange_declare</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\newWork\RabbitMQ\rabbitmq-c\build\examples\amqp_listen.vcxproj">
+      <Project>{A637FF26-7B4C-36AB-BB66-3F3AA1D8714B}</Project>
+      <Name>amqp_listen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\newWork\RabbitMQ\rabbitmq-c\build\examples\amqp_listenq.vcxproj">
+      <Project>{B20307F2-A7F8-3D89-A788-A45346920B8A}</Project>
+      <Name>amqp_listenq</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\newWork\RabbitMQ\rabbitmq-c\build\examples\amqp_producer.vcxproj">
+      <Project>{B961E370-0D11-3A75-A764-81F1A2E68383}</Project>
+      <Name>amqp_producer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\newWork\RabbitMQ\rabbitmq-c\build\examples\amqp_rpc_sendstring_client.vcxproj">
+      <Project>{D02FE56C-C041-3292-A4CB-B37D37686543}</Project>
+      <Name>amqp_rpc_sendstring_client</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\newWork\RabbitMQ\rabbitmq-c\build\examples\amqp_sendstring.vcxproj">
+      <Project>{EBD41A66-6D79-3E2D-BAF3-BCF727416954}</Project>
+      <Name>amqp_sendstring</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\newWork\RabbitMQ\rabbitmq-c\build\examples\amqp_unbind.vcxproj">
+      <Project>{8DDCFDA5-C452-3226-94B8-F2C2A8E2B4BE}</Project>
+      <Name>amqp_unbind</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\newWork\RabbitMQ\rabbitmq-c\build\librabbitmq\rabbitmq.vcxproj">
+      <Project>{9077EE78-CA86-3207-90CE-A8F4C09C1E3A}</Project>
+      <Name>rabbitmq</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\newWork\RabbitMQ\rabbitmq-c\build\librabbitmq\rabbitmq-static.vcxproj">
+      <Project>{AAEDAEBA-B7D1-33E7-8587-F7B815530280}</Project>
+      <Name>rabbitmq-static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\newWork\RabbitMQ\rabbitmq-c\build\tests\test_basic.vcxproj">
+      <Project>{47F83075-EAB8-31D1-8DD3-E4442F2D139B}</Project>
+      <Name>test_basic</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\newWork\RabbitMQ\rabbitmq-c\build\tests\test_hostcheck.vcxproj">
+      <Project>{12C87EE4-709E-3FC9-BFAE-863E61D3B329}</Project>
+      <Name>test_hostcheck</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\newWork\RabbitMQ\rabbitmq-c\build\tests\test_merge_capabilities.vcxproj">
+      <Project>{436D33AF-35D2-304B-A270-EDB6FDEE003C}</Project>
+      <Name>test_merge_capabilities</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\newWork\RabbitMQ\rabbitmq-c\build\tests\test_parse_url.vcxproj">
+      <Project>{8AF738D6-1DB9-39DC-AE4C-7090F9ADFC78}</Project>
+      <Name>test_parse_url</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\newWork\RabbitMQ\rabbitmq-c\build\tests\test_sasl_mechanism.vcxproj">
+      <Project>{7BC52390-2BBD-3C26-9BCE-2BE3BACBB07F}</Project>
+      <Name>test_sasl_mechanism</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\newWork\RabbitMQ\rabbitmq-c\build\tests\test_status_enum.vcxproj">
+      <Project>{A842A837-A3E3-33EE-89BE-C318F2D264D0}</Project>
+      <Name>test_status_enum</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\newWork\RabbitMQ\rabbitmq-c\build\tests\test_tables.vcxproj">
+      <Project>{BEC4A9A8-9451-33B4-A7D5-1E1206DE59F8}</Project>
+      <Name>test_tables</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

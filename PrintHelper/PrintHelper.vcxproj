@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{914F7D87-2378-4303-8056-1CD0CBC2FE20}</ProjectGuid>
+    <RootNamespace>PrintHelper</RootNamespace>
+    <Keyword>MFCDLLProj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\obj\$(MSBuildProjectName)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\obj\$(MSBuildProjectName)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <ModuleDefinitionFile>.\PrintHelper.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <ModuleDefinitionFile>.\PrintHelper.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="COMPortHelper.cpp" />
+    <ClCompile Include="CopyMgr.cpp" />
+    <ClCompile Include="InfraredInduction.cpp" />
+    <ClCompile Include="IOPrinter.cpp" />
+    <ClCompile Include="PCLXL\Object.cpp" />
+    <ClCompile Include="PCLXL\ParsePCL.cpp" />
+    <ClCompile Include="PCLXL\PCL.cpp" />
+    <ClCompile Include="PrinterUtils.cpp" />
+    <ClCompile Include="PrintHelper.cpp" />
+    <ClCompile Include="PsPclJobChange.cpp" />
+    <ClCompile Include="PsPclJobChangeHP.cpp" />
+    <ClCompile Include="PsPclJobChangeKM.cpp" />
+    <ClCompile Include="ScanMonitor.cpp" />
+    <ClCompile Include="SerialCommHelper.cpp" />
+    <ClCompile Include="SimpleCry.cpp" />
+    <ClCompile Include="SnmpInfoHelper.cpp" />
+    <ClCompile Include="SnmpInterface.cpp" />
+    <ClCompile Include="SnmpJobMonitorDZ.cpp" />
+    <ClCompile Include="SnmpJobMonitorJC.cpp" />
+    <ClCompile Include="SnmpJobMonitorKM.cpp" />
+    <ClCompile Include="SnmpJobMonitorLG.cpp" />
+    <ClCompile Include="SnmpJobMonitorSL.cpp" />
+    <ClCompile Include="SnmpMonitor.cpp" />
+    <ClCompile Include="SnmpMonitorHelperCANON.cpp" />
+    <ClCompile Include="SnmpMonitorHelperHP.cpp" />
+    <ClCompile Include="SnmpMonitorHelperLG.cpp" />
+    <ClCompile Include="SnmpMonitorHelperPT.cpp" />
+    <ClCompile Include="SnmpMonitorHelperSL.cpp" />
+    <ClCompile Include="SnmpMonitorHelper_JT.cpp" />
+    <ClCompile Include="SnmpMonitorHelper_SEIKO.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="WinVerUtils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="PrintHelper.def" />
+    <None Include="res\PrintHelper.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\WebService\FileHelper.h" />
+    <ClInclude Include="..\WebService\HttpClient.h" />
+    <ClInclude Include="BrotherMIB_Def.h" />
+    <ClInclude Include="CanonMIB_Def.h" />
+    <ClInclude Include="COMPortHelper.h" />
+    <ClInclude Include="CopyInterface.h" />
+    <ClInclude Include="CopyMgr.h" />
+    <ClInclude Include="EpsonMIB_Def.h" />
+    <ClInclude Include="HewlettPackardMIB_Def.h" />
+    <ClInclude Include="HostResourcesMIB_Def.h" />
+    <ClInclude Include="HwConfig.h" />
+    <ClInclude Include="InfraredInduction.h" />
+    <ClInclude Include="IOPrinter.h" />
+    <ClInclude Include="JingTuMIB_Def.h" />
+    <ClInclude Include="KonicaMinoltaMIB_Def.h" />
+    <ClInclude Include="KyoceraMIB_Def.h" />
+    <ClInclude Include="LexmarkMIB_Def.h" />
+    <ClInclude Include="OkiMIB_Def.h" />
+    <ClInclude Include="PantumMIB_Def.h" />
+    <ClInclude Include="PCLXL\Object.h" />
+    <ClInclude Include="PCLXL\ParsePCL.h" />
+    <ClInclude Include="PCLXL\PCL_Def.h" />
+    <ClInclude Include="PrinterAlert_Def.h" />
+    <ClInclude Include="PrinterBrandInfo.h" />
+    <ClInclude Include="PrinterInfoMIB_Def.h" />
+    <ClInclude Include="PrinterMIBv2_Def.h" />
+    <ClInclude Include="PrinterUtils.h" />
+    <ClInclude Include="PrintHelper.h" />
+    <ClInclude Include="PsPclJobChange.h" />
+    <ClInclude Include="PsPclJobChangeHP.h" />
+    <ClInclude Include="PsPclJobChangeKM.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RFC1213MIB_Def.h" />
+    <ClInclude Include="RicohMIB_Def.h" />
+    <ClInclude Include="SamsungMIB_Def.h" />
+    <ClInclude Include="ScanMonitor.h" />
+    <ClInclude Include="SeikoMIB_Def.h" />
+    <ClInclude Include="SerialCommHelper.h" />
+    <ClInclude Include="SharpMIB_Def.h" />
+    <ClInclude Include="SimpleCry.h" />
+    <ClInclude Include="SnmpInfoHelper.h" />
+    <ClInclude Include="SnmpInterface.h" />
+    <ClInclude Include="SnmpJobMonitorDZ.h" />
+    <ClInclude Include="SnmpJobMonitorJC.h" />
+    <ClInclude Include="SnmpJobMonitorKM.h" />
+    <ClInclude Include="SnmpJobMonitorLG.h" />
+    <ClInclude Include="SnmpJobMonitorSL.h" />
+    <ClInclude Include="SnmpMonitor.h" />
+    <ClInclude Include="SnmpMonitorHelperCANON.h" />
+    <ClInclude Include="SnmpMonitorHelperHP.h" />
+    <ClInclude Include="SnmpMonitorHelperLG.h" />
+    <ClInclude Include="SnmpMonitorHelperPT.h" />
+    <ClInclude Include="SnmpMonitorHelperSL.h" />
+    <ClInclude Include="SnmpMonitorHelper_JT.h" />
+    <ClInclude Include="SnmpMonitorHelper_SEIKO.h" />
+    <ClInclude Include="Snmp_Def.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="ToshibaMIB_Def.h" />
+    <ClInclude Include="WinVerUtils.h" />
+    <ClInclude Include="XeroxMIB_Def.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PrintHelper.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/PrintUserMgrTool">
+        <file>Resources/qt_zh_CN.qm</file>
+    </qresource>
+</RCC>

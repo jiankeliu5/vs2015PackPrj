@@ -1,0 +1,7 @@
+E:/Program Files (x86)/rabbitmq-c/lib/pkgconfig/librabbitmq.pc
+E:/Program Files (x86)/rabbitmq-c/lib/rabbitmq.4.lib
+E:/Program Files (x86)/rabbitmq-c/bin/rabbitmq.4.dll
+E:/Program Files (x86)/rabbitmq-c/lib/librabbitmq.4.lib
+E:/Program Files (x86)/rabbitmq-c/include/amqp.h
+E:/Program Files (x86)/rabbitmq-c/include/amqp_framing.h
+E:/Program Files (x86)/rabbitmq-c/include/amqp_tcp_socket.h

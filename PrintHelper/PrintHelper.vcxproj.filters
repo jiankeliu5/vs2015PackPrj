@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="SnmpMonitor">
+      <UniqueIdentifier>{c7e6a4f2-2c52-4e56-91b5-6bf0978ed3d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SnmpMonitor\PrinterJob">
+      <UniqueIdentifier>{304749ad-fd31-4847-b7aa-efb3dcc671a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SnmpMonitor\PrinterStatus">
+      <UniqueIdentifier>{a609d4d1-d006-49a3-b0c7-ad6e8225a0aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SnmpMonitor\MIB_Def">
+      <UniqueIdentifier>{6bc96f4f-7df8-4deb-97da-876399a6eeba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrintJob">
+      <UniqueIdentifier>{04e0cf82-3c66-4e73-a663-ea0cac90a7da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CopyMonitor">
+      <UniqueIdentifier>{b10e6a6e-1797-4040-9d18-94d35cf963b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScanMonitor">
+      <UniqueIdentifier>{6a75a3b2-234e-46e3-9071-125aadac0e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InfraredInduction">
+      <UniqueIdentifier>{c9a8945f-9066-4001-ae71-3b4af1223607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ps-PclJobChange">
+      <UniqueIdentifier>{e0d9a9de-011e-4666-924a-465720669825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileHelper">
+      <UniqueIdentifier>{ffb2c5fe-34cd-4776-9d0e-ad76f3083b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ps-PclJobChange\PCLXL">
+      <UniqueIdentifier>{b73539be-d30d-428b-937f-9d7cd105b5bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PrintHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SnmpInfoHelper.cpp">
+      <Filter>SnmpMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="SnmpInterface.cpp">
+      <Filter>SnmpMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="SnmpMonitor.cpp">
+      <Filter>SnmpMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="SnmpJobMonitorDZ.cpp">
+      <Filter>SnmpMonitor\PrinterJob</Filter>
+    </ClCompile>
+    <ClCompile Include="SnmpJobMonitorJC.cpp">
+      <Filter>SnmpMonitor\PrinterJob</Filter>
+    </ClCompile>
+    <ClCompile Include="SnmpJobMonitorKM.cpp">
+      <Filter>SnmpMonitor\PrinterJob</Filter>
+    </ClCompile>
+    <ClCompile Include="SnmpJobMonitorLG.cpp">
+      <Filter>SnmpMonitor\PrinterJob</Filter>
+    </ClCompile>
+    <ClCompile Include="SnmpJobMonitorSL.cpp">
+      <Filter>SnmpMonitor\PrinterJob</Filter>
+    </ClCompile>
+    <ClCompile Include="SnmpMonitorHelper_JT.cpp">
+      <Filter>SnmpMonitor\PrinterStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="SnmpMonitorHelper_SEIKO.cpp">
+      <Filter>SnmpMonitor\PrinterStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="SnmpMonitorHelperCANON.cpp">
+      <Filter>SnmpMonitor\PrinterStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="SnmpMonitorHelperHP.cpp">
+      <Filter>SnmpMonitor\PrinterStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="SnmpMonitorHelperLG.cpp">
+      <Filter>SnmpMonitor\PrinterStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="SnmpMonitorHelperPT.cpp">
+      <Filter>SnmpMonitor\PrinterStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="SnmpMonitorHelperSL.cpp">
+      <Filter>SnmpMonitor\PrinterStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="IOPrinter.cpp">
+      <Filter>PrintJob</Filter>
+    </ClCompile>
+    <ClCompile Include="PrinterUtils.cpp">
+      <Filter>PrintJob</Filter>
+    </ClCompile>
+    <ClCompile Include="WinVerUtils.cpp">
+      <Filter>PrintJob</Filter>
+    </ClCompile>
+    <ClCompile Include="CopyMgr.cpp">
+      <Filter>CopyMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialCommHelper.cpp">
+      <Filter>CopyMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleCry.cpp">
+      <Filter>CopyMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="ScanMonitor.cpp">
+      <Filter>ScanMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="COMPortHelper.cpp">
+      <Filter>InfraredInduction</Filter>
+    </ClCompile>
+    <ClCompile Include="InfraredInduction.cpp">
+      <Filter>InfraredInduction</Filter>
+    </ClCompile>
+    <ClCompile Include="PsPclJobChange.cpp">
+      <Filter>Ps-PclJobChange</Filter>
+    </ClCompile>
+    <ClCompile Include="PsPclJobChangeHP.cpp">
+      <Filter>Ps-PclJobChange</Filter>
+    </ClCompile>
+    <ClCompile Include="PsPclJobChangeKM.cpp">
+      <Filter>Ps-PclJobChange</Filter>
+    </ClCompile>
+    <ClCompile Include="PCLXL\Object.cpp">
+      <Filter>Ps-PclJobChange\PCLXL</Filter>
+    </ClCompile>
+    <ClCompile Include="PCLXL\ParsePCL.cpp">
+      <Filter>Ps-PclJobChange\PCLXL</Filter>
+    </ClCompile>
+    <ClCompile Include="PCLXL\PCL.cpp">
+      <Filter>Ps-PclJobChange\PCLXL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PrintHelper.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\PrintHelper.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PrintHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PrinterBrandInfo.h">
+      <Filter>SnmpMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="SnmpInfoHelper.h">
+      <Filter>SnmpMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="SnmpInterface.h">
+      <Filter>SnmpMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="SnmpMonitor.h">
+      <Filter>SnmpMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="SnmpJobMonitorDZ.h">
+      <Filter>SnmpMonitor\PrinterJob</Filter>
+    </ClInclude>
+    <ClInclude Include="SnmpJobMonitorJC.h">
+      <Filter>SnmpMonitor\PrinterJob</Filter>
+    </ClInclude>
+    <ClInclude Include="SnmpJobMonitorKM.h">
+      <Filter>SnmpMonitor\PrinterJob</Filter>
+    </ClInclude>
+    <ClInclude Include="SnmpJobMonitorLG.h">
+      <Filter>SnmpMonitor\PrinterJob</Filter>
+    </ClInclude>
+    <ClInclude Include="SnmpJobMonitorSL.h">
+      <Filter>SnmpMonitor\PrinterJob</Filter>
+    </ClInclude>
+    <ClInclude Include="SnmpMonitorHelper_JT.h">
+      <Filter>SnmpMonitor\PrinterStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="SnmpMonitorHelper_SEIKO.h">
+      <Filter>SnmpMonitor\PrinterStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="SnmpMonitorHelperCANON.h">
+      <Filter>SnmpMonitor\PrinterStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="SnmpMonitorHelperHP.h">
+      <Filter>SnmpMonitor\PrinterStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="SnmpMonitorHelperLG.h">
+      <Filter>SnmpMonitor\PrinterStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="SnmpMonitorHelperPT.h">
+      <Filter>SnmpMonitor\PrinterStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="SnmpMonitorHelperSL.h">
+      <Filter>SnmpMonitor\PrinterStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="BrotherMIB_Def.h">
+      <Filter>SnmpMonitor\MIB_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="CanonMIB_Def.h">
+      <Filter>SnmpMonitor\MIB_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="EpsonMIB_Def.h">
+      <Filter>SnmpMonitor\MIB_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="HewlettPackardMIB_Def.h">
+      <Filter>SnmpMonitor\MIB_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="HostResourcesMIB_Def.h">
+      <Filter>SnmpMonitor\MIB_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="JingTuMIB_Def.h">
+      <Filter>SnmpMonitor\MIB_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="KonicaMinoltaMIB_Def.h">
+      <Filter>SnmpMonitor\MIB_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="KyoceraMIB_Def.h">
+      <Filter>SnmpMonitor\MIB_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="LexmarkMIB_Def.h">
+      <Filter>SnmpMonitor\MIB_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="OkiMIB_Def.h">
+      <Filter>SnmpMonitor\MIB_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="PantumMIB_Def.h">
+      <Filter>SnmpMonitor\MIB_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="PrinterAlert_Def.h">
+      <Filter>SnmpMonitor\MIB_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="PrinterInfoMIB_Def.h">
+      <Filter>SnmpMonitor\MIB_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="PrinterMIBv2_Def.h">
+      <Filter>SnmpMonitor\MIB_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="RFC1213MIB_Def.h">
+      <Filter>SnmpMonitor\MIB_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="RicohMIB_Def.h">
+      <Filter>SnmpMonitor\MIB_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="SamsungMIB_Def.h">
+      <Filter>SnmpMonitor\MIB_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="SeikoMIB_Def.h">
+      <Filter>SnmpMonitor\MIB_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="SharpMIB_Def.h">
+      <Filter>SnmpMonitor\MIB_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="Snmp_Def.h">
+      <Filter>SnmpMonitor\MIB_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="ToshibaMIB_Def.h">
+      <Filter>SnmpMonitor\MIB_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="XeroxMIB_Def.h">
+      <Filter>SnmpMonitor\MIB_Def</Filter>
+    </ClInclude>
+    <ClInclude Include="IOPrinter.h">
+      <Filter>PrintJob</Filter>
+    </ClInclude>
+    <ClInclude Include="PrinterUtils.h">
+      <Filter>PrintJob</Filter>
+    </ClInclude>
+    <ClInclude Include="WinVerUtils.h">
+      <Filter>PrintJob</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyInterface.h">
+      <Filter>CopyMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyMgr.h">
+      <Filter>CopyMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="HwConfig.h">
+      <Filter>CopyMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialCommHelper.h">
+      <Filter>CopyMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleCry.h">
+      <Filter>CopyMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="ScanMonitor.h">
+      <Filter>ScanMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="COMPortHelper.h">
+      <Filter>InfraredInduction</Filter>
+    </ClInclude>
+    <ClInclude Include="InfraredInduction.h">
+      <Filter>InfraredInduction</Filter>
+    </ClInclude>
+    <ClInclude Include="PsPclJobChange.h">
+      <Filter>Ps-PclJobChange</Filter>
+    </ClInclude>
+    <ClInclude Include="PsPclJobChangeHP.h">
+      <Filter>Ps-PclJobChange</Filter>
+    </ClInclude>
+    <ClInclude Include="PsPclJobChangeKM.h">
+      <Filter>Ps-PclJobChange</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebService\FileHelper.h">
+      <Filter>FileHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebService\HttpClient.h">
+      <Filter>SnmpMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="PCLXL\Object.h">
+      <Filter>Ps-PclJobChange\PCLXL</Filter>
+    </ClInclude>
+    <ClInclude Include="PCLXL\ParsePCL.h">
+      <Filter>Ps-PclJobChange\PCLXL</Filter>
+    </ClInclude>
+    <ClInclude Include="PCLXL\PCL_Def.h">
+      <Filter>Ps-PclJobChange\PCLXL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PrintHelper.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

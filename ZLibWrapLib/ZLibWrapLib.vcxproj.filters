@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Zlib">
+      <UniqueIdentifier>{9371bf57-8c29-4674-a19c-bb06d8d8ffb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loki">
+      <UniqueIdentifier>{bf4a9272-a256-435d-8c44-406c954e299d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Encoding.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLibWrapLib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLib\adler32.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLib\compress.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLib\crc32.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLib\deflate.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLib\gzclose.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLib\gzlib.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLib\gzread.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLib\gzwrite.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLib\infback.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLib\inffast.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLib\inflate.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLib\inftrees.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLib\ioapi.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLib\iowin32.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLib\mztools.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLib\trees.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLib\uncompr.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLib\unzip.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLib\zip.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLib\zutil.c">
+      <Filter>Zlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ZLibWrapLib.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\ZLibWrapLib.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Encoding.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLib\crc32.h">
+      <Filter>Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLib\crypt.h">
+      <Filter>Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLib\deflate.h">
+      <Filter>Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLib\gzguts.h">
+      <Filter>Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLib\inffast.h">
+      <Filter>Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLib\inffixed.h">
+      <Filter>Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLib\inflate.h">
+      <Filter>Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLib\inftrees.h">
+      <Filter>Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLib\ioapi.h">
+      <Filter>Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLib\iowin32.h">
+      <Filter>Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLib\mztools.h">
+      <Filter>Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLib\trees.h">
+      <Filter>Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLib\unzip.h">
+      <Filter>Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLib\zconf.h">
+      <Filter>Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLib\zip.h">
+      <Filter>Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLib\zlib.h">
+      <Filter>Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLib\zutil.h">
+      <Filter>Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Loki\RefToValue.h">
+      <Filter>Loki</Filter>
+    </ClInclude>
+    <ClInclude Include="Loki\ScopeGuard.h">
+      <Filter>Loki</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ZLibWrapLib.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
